@@ -2,7 +2,7 @@ import React from "react";
 import Login from "./Components/Login";
 import "./App.css";
 
-import { selectUser } from "./features/userSlice";
+import { selectUser } from "./Lib/slices/userSlice";
 import { useSelector } from "react-redux";
 import Logout from "./Components/Logout";
 
